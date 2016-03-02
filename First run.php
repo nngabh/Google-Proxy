@@ -1,5 +1,5 @@
 <?php
-Spage = file ($url);
+$page = file ($url);
 foreach($page as $part)
 {
 $part = ereg_replace('<img src=','<img src='.$url,$part) ;
